@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR4i0027/v1
+canonical_location: https://kanripo.org/bkk/KR4i0027/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 四六談麈
+  date: '2015-08-25 00:45:06.785079'
+  source:
+    repository: kanripo
+    path: KR4i0027
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4i0027_000.yaml, hash: 'sha256:abb3d8d87bbd053a55366230ab2b9180af877e5a48de54906bb51bdf5280964d'}
+  - {seq: 1, filename: KR4i0027_001.yaml, hash: 'sha256:d118e068927044c592ba7411e9e020d922da096912afc8f998420f3d16a905ba'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4i0027_000.markers.yaml, hash: 'sha256:2b62a07bfd6093e9e4d860005fb44646c95c1a907b5cff9163a56150b458f592'}
+  - {seq: 1, role: markers, filename: assets/KR4i0027_001.markers.yaml, hash: 'sha256:05d953aa13b9c56cbfe9cbe5a054905a5da177041e0b3c3de5605ee8d4287372'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4i0027_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 417
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4i0027_WYG_000-3a
+    span:
+    - body
+    - 417
+    - 638
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4i0027_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3242
+  label: 四六談麈
+  type: section
+  level: 1
+hash: sha256:e654289c9de067f3f8389d568224e42297a840b89ab30f1dd4d354d54ec74f20
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
